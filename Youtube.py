@@ -30,7 +30,7 @@ while True:
         page.click('button[class="ytp-mute-button ytp-button"]')
         while ans >= 0 <= ans:
             os.system("cls")
-            print("Assistindo a Playlist")
-            print(ans, "segundos")
+            print("Assistindo a Playlist\n")
+            print("  ", ans, "segundos")
             time.sleep(1)
             ans -= 1
